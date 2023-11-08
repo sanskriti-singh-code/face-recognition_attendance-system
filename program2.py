@@ -23,7 +23,7 @@ face_names = []
 now = datetime.now()
 current_date = now.strftime("%Y-%m-%d")
 
-f = open(current_date + '.csv', 'w', newline='')
+f = open(current_date + '.csv', 'a', newline='')
 lnwriter = csv.writer(f)
 
 while True:
